@@ -3,7 +3,7 @@ provider "aws" {
 }
 
 resource "aws_instance" "dev" {
-    ami = "ami-050cd642fd83388e4"
+    ami = "ami-06c8f2ec674c67112"
     instance_type = "t2.micro"
     key_name = "Jenkins-ohio"
     tags = {
